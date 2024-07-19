@@ -130,7 +130,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['44.204.48.167']
+ALLOWED_HOSTS = ['44.204.48.167', "127.0.0.1", "172.31.93.91"]
 
 # REST framework settings
 REST_FRAMEWORK = {
