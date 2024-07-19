@@ -136,3 +136,7 @@ ALLOWED_HOSTS = ['44.204.48.167', "127.0.0.1", "172.31.93.91"]
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
 }
+
+
+STATIC_URL = 'https://book-reviews-app.s3.amazonaws.com/'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
